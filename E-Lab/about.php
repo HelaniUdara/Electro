@@ -38,13 +38,19 @@ if(isset($_SESSION['user_id'])){
    <div class="row">
 
       <div class="image">
-         <img src="images/about-img.svg" alt="">
+         <img src="images/about.jpg" alt="">
       </div>
 
       <div class="content">
-         <h3>why choose us?</h3>
-         <p>At E-Lab , we pride ourselves on offering top-notch service to all of our customers. Our team is highly experienced and knowledgeable in the field of electricity, so you can trust that we will provide reliable and accurate service. We also offer a wide selection of high-quality products from trusted brands, ensuring that you have the best options to choose from. Our shop is conveniently located and has extended hours of operation, making it easy for you to get the service you need when you need it. We are also dedicated to providing excellent customer service and take the time to listen to your needs and concerns. With a solid reputation in the community, we are confident that E-Lab is the best choice for all of your electric needs.</p>
-         <a href="contact.php" class="btn">contact us</a>
+         <h3>WHY CHOOSE US?</h3>
+         <p>At Electro, we take great pleasure in providing each and every one of our clients with excellent service. 
+            You can rely on us to deliver dependable and precise service since our staff has extensive experience and expertise 
+            in the field of electricity. We also provide a broad range of premium goods from reputable manufacturers to provide 
+            you the greatest alternatives. You can easily acquire the assistance you want when you require it thanks to our shop's 
+            accessible location and long business hours. We are also committed to offering first-rate customer service and paying 
+            attention to your requirements and concerns. We are certain that Electro is the ideal option for all of your electric
+             needs because of its strong local reputation.</p>
+         <a href="contact.php" class="btn">Contact Us</a>
       </div>
 
    </div>
@@ -53,7 +59,7 @@ if(isset($_SESSION['user_id'])){
 
 <section class="reviews">
    
-   <h1 class="heading">client's reviews</h1>
+   <h1 class="heading">Client's Reviews</h1>
 
    <div class="swiper reviews-slider">
 
@@ -69,7 +75,7 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>John Deo</h3>
       </div>
 
       <div class="swiper-slide slide">
@@ -82,7 +88,7 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Sera Cliff</h3>
       </div>
 
       <div class="swiper-slide slide">
@@ -95,7 +101,7 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Kevin Brian</h3>
       </div>
 
       <div class="swiper-slide slide">
@@ -108,7 +114,7 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Camila Smith</h3>
       </div>
 
       <div class="swiper-slide slide">
@@ -121,7 +127,7 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Zain Malic</h3>
       </div>
 
       <div class="swiper-slide slide">
@@ -134,7 +140,7 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Jully Sherif</h3>
       </div>
 
    </div>

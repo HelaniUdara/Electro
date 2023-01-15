@@ -95,7 +95,7 @@ include 'components/wishlist_cart.php';
 
 
 
-<?php include 'components/footer.php'; ?>
+<?php include 'components/footer1.php'; ?>
 
 <script src="js/script.js"></script>
 
