@@ -62,7 +62,7 @@ a:hover{
             $total_cart_counts = $count_cart_items->rowCount();
          ?>
          <div id="menu-btn" class="fas fa-bars"></div>
-         <!-- <a href="search_page.php" ><i class="fas fa-search"></i></a> -->
+         <a href="search_page.php" ><i class="fas fa-search"></i></a> 
          <a href="wishlist.php"><i class="fas fa-heart"></i><span>(<?= $total_wishlist_counts; ?>)</span></a>
          <a href="cart.php"><i class="fas fa-shopping-cart"></i><span>(<?= $total_cart_counts; ?>)</span></a>
         
@@ -78,20 +78,20 @@ a:hover{
            
          ?>
          <p><?= $fetch_profile["lastName"];?></p>
-         <a href="update_user.php" class="btn">update profile</a>
+         <a href="update_user.php" class="btn">Update Profile</a>
          <div class="flex-btn">
-            <a href="user_register.php" class="option-btn">register</a>
-            <a href="user_login.php" class="option-btn">login</a>
+            <a href="user_register.php" class="option-btn">Register</a>
+            <a href="user_login.php" class="option-btn">Login</a>
          </div>
          <a href="components/user_logout.php" class="delete-btn" onclick="return confirm('logout from the website?');">logout</a> 
          <?php
             }else{
          ?>
-         <p>please login or register first!</p>
+         <p>Please login or register first!</p>
          <div class="flex-btn">
             
-            <a href="user_register.php" class="option-btn">register</a>
-            <a href="user_login.php" class="option-btn">login</a>
+            <a href="user_register.php" class="option-btn">Register</a>
+            <a href="user_login.php" class="option-btn">Login</a>
          </div>
          <?php
             }

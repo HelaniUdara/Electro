@@ -46,14 +46,16 @@ if(isset($_POST['submit'])){
           color:red;
           
         }
+        /*
         a:hover{
          color:aqua;
         }
+        */
 </style>
 
 <body>
    <div class="container">
-      <div class="title" align="center"><span style="color:white;">Sign In to</span> <a href="index.php"><span style="color:#ec7f37;"> E-Lab</span> </a> </div>
+      <div class="title" align="center"><span style="color:white;">Sign In to</span> <a href="index.php"><span style="color:#ec7f37;"> Electro</span> </a> </div>
       <div class="content">
          <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
          <?php if (isset($_GET['error'])) { ?>
@@ -63,7 +65,7 @@ if(isset($_POST['submit'])){
 
 
                <div class="input-box">
-                  <span class="details" style=" color:white; font-size:25px;">Email</span>
+                  <span class="details" style=" color:white;">Email</span>
                   <input type="text" name="email" placeholder="Enter Your Email Address " required>
                   <br>
                  
@@ -71,7 +73,7 @@ if(isset($_POST['submit'])){
                
 
                <div class="input-box">
-                  <span class="details" style=" color:white; font-size:25px;">Password</span>
+                  <span class="details" style=" color:white;">Password</span>
                   <input type="password" name="pass" placeholder="Enter The Password" required>
                </div>
 
@@ -84,11 +86,13 @@ if(isset($_POST['submit'])){
             </div>
             
          </form>
-        <a href="#" style="margin-left:40%;  color:#ec7f37; font-size:17px;">Forget Password</a>
+         <div class="forget" align="center">
+            <a href="#">Forget Password</a>
+         </div>
          <div align="center" style="margin-top:20px; ">
            <span style="color:white;" >Do not Have an Account?</span>
             <a href="user_register.php">
-            <span style="color:#ec7f37;"> Sign Up</span> 
+            <span style="color:#fcbc83;"> Sign Up</span> 
                
             </a>
          </div>

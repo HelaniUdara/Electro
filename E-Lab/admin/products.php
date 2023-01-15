@@ -150,7 +150,7 @@ if(isset($_GET['delete'])){
    </form>
 
 </section>
-
+<!--
 <section class="show-products">
 
    <h1 class="heading">products added</h1>
@@ -184,7 +184,7 @@ if(isset($_GET['delete'])){
 
 </section>
 
-
+   -->
 
 
 

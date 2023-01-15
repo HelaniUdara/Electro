@@ -57,7 +57,7 @@ if(isset($_POST['submit'])){
   </head>
   <body>
     <div class="container">
-      <h1 class="form-title">Sign up to <a href="index.php"><span  style="color:#ec7f37;" >E-Lab</span></a></h1>
+      <h1 class="form-title">Sign up to <a href="index.php"><span  style="color:#ec7f37;" >Electro</span></a></h1>
       <form action="user_register_check.php" method="POST">
       <?php if (isset($_GET['error'])) { ?>
                                 <p class="error"><?php echo $_GET['error'] ?></p>
@@ -122,7 +122,7 @@ if(isset($_POST['submit'])){
         </div>
         <br>
         <div align="center" style="color:white;">
-        Already Have an Account   <a href="user_login.php"><span  style="color:#ec7f37;" >Sign In</span></a></p>
+        Already Have an Account   <a href="user_login.php"><span  style="color:#e99041;" >Sign In</span></a></p>
         </div>
        
          
