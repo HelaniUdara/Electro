@@ -49,9 +49,9 @@ include 'components/wishlist_cart.php';
             <img src="images/home-img-4.png" alt="">
          </div>
          <div class="content">
-            <span style="font-size:25px;">upto 50% off</span>
-            <h3 style="font-size:25px;">latest smartphones</h3>
-            <a href="shop.php" class="btn">shop now</a>
+            <span style="font-size:25px;">DISCOUNTS UP TO 50% OFF</span>
+            <h3 style="font-size:25px;">Latest Smartphones</h3>
+            <a href="shop.php" class="btn">Shop Now</a>
          </div>
       </div>
 
@@ -60,9 +60,9 @@ include 'components/wishlist_cart.php';
             <img src="images/home-img-2.png" alt="">
          </div>
          <div class="content">
-            <span style="font-size:25px;">upto 50% off</span>
-            <h3 style="font-size:25px;">latest watches</h3>
-            <a href="shop.php" class="btn">shop now</a>
+            <span style="font-size:25px;">DISCOUNTS UP TO 40% OFF</span>
+            <h3 style="font-size:25px;">Latest Watches</h3>
+            <a href="shop.php" class="btn">Shop Now</a>
          </div>
       </div>
 
@@ -71,9 +71,9 @@ include 'components/wishlist_cart.php';
             <img src="images/home-img-3.png" alt="">
          </div>
          <div class="content">
-            <span style="font-size:25px;">upto 50% off</span>
-            <h3 style="font-size:25px;">latest headsets</h3>
-            <a href="shop.php" class="btn">shop now</a>
+            <span style="font-size:25px;">DISCOUNTS UP TO 60% OFF</span>
+            <h3 style="font-size:25px;">Latest Headsets</h3>
+            <a href="shop.php" class="btn">Shop Now</a>
          </div>
       </div>
 
@@ -87,9 +87,41 @@ include 'components/wishlist_cart.php';
 
 </div>
 
+</section>
+
+</div>
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>Secure Payment</h3>
+            <p>100% secure payment</p>
+        </div>
+    </div>    
+
+    <div class="icons">
+        <i class="fa fa-truck"></i>
+        <div class="content">
+            <h3>Free Delivery</h3>
+            <p>Order over Rs.10,000</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 Support</h3>
+            <p>Call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
 <section class="category">
 
-   <h1 class="heading" style="font-size:25px;">shop by category</h1>
+   <h1 class="heading" style="font-size:25px;">Shop by Category</h1>
 
    <div class="swiper category-slider">
 
@@ -97,27 +129,27 @@ include 'components/wishlist_cart.php';
 
    <a href="category.php?category=laptop" class="swiper-slide slide">
       <img src="images/icon-1.png" alt="">
-      <h3>laptop</h3>
+      <h3>Laptops</h3>
    </a>
 
    <a href="category.php?category=tv" class="swiper-slide slide">
       <img src="images/icon-2.png" alt="">
-      <h3>tv</h3>
+      <h3>TV</h3>
    </a>
 
    <a href="category.php?category=camera" class="swiper-slide slide">
       <img src="images/icon-3.png" alt="">
-      <h3>camera</h3>
+      <h3>Cameras</h3>
    </a>
 
    <a href="category.php?category=smartphone" class="swiper-slide slide">
       <img src="images/icon-7.png" alt="">
-      <h3>smartphone</h3>
+      <h3>Smartphones</h3>
    </a>
 
    <a href="category.php?category=watch" class="swiper-slide slide">
       <img src="images/icon-8.png" alt="">
-      <h3>watch</h3>
+      <h3>Watches</h3>
    </a>
 
    </div>
@@ -130,7 +162,7 @@ include 'components/wishlist_cart.php';
 
 <section class="home-products">
 
-   <h1 class="heading" style="font-size:25px;">latest products</h1>
+   <h1 class="heading" style="font-size:25px;">Latest Products</h1>
 
    <div class="swiper products-slider">
 
@@ -174,7 +206,21 @@ include 'components/wishlist_cart.php';
 
 
 
+<section class="ads"  style="background:url(images/mr.jpg) no-repeat;background-size: cover;background-position: center;margin-bottom:.5rem">
+   <div class="add" style="display:flex">
+   <div class="content"  style="color:white;margin-top:8rem; ">
+            <span style="font-size:25px;">UP TO 100% Cashback</span>
+            <h3 style="font-size:25px;">On Selected OPPO Products</h3>
+            <p style="font-size:1.4rem">Valid only on EMI transactions</p>
+            <a href="shop.php" class="btn"style="display: inline-block; background-color: #F8EDE3; color:black; width: auto">Shop Now</a>
+         </div>
 
+      <div class="image2">
+            <img src="images/hhgrb.png" alt="">
+         </div>
+    
+   
+</section>
 
 
 

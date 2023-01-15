@@ -52,7 +52,7 @@ if(isset($_POST['send'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
    <style>
       body{
-         background-image:url("images/user-register-back-image.jpg");
+         background-image:url("images/signback.jpeg");
          background-repeat: no-repeat;
          background-size: cover;
       }
@@ -68,7 +68,7 @@ if(isset($_POST['send'])){
 <section class="contact">
 
    <form action="" method="post">
-      <h3>get in touch</h3>
+      <h3>Get in touch</h3>
       <input type="text" name="name" placeholder="enter your name" required maxlength="20" class="box">
       <input type="email" name="email" placeholder="enter your email" required maxlength="50" class="box">
       <input type="number" name="number" min="0" max="9999999999" placeholder="enter your number" required onkeypress="if(this.value.length == 10) return false;" class="box">
@@ -90,7 +90,7 @@ if(isset($_POST['send'])){
 
 
 
-<?php include 'components/footer.php'; ?>
+<?php include 'components/footer1.php'; ?>
 
 <script src="js/script.js"></script>
 

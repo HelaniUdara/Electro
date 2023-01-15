@@ -11,6 +11,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:1.5rem;
+    margin:.5rem 0;
+    padding: 2rem 3rem;
 }
 
 .footer .box-container .box h3{
@@ -70,7 +72,7 @@
     border-top: .1rem solid rgb(254, 253, 253);;
     margin-top: 2rem;
     padding:0 1rem;
-    padding-top: 2.5rem;
+    padding: 2.5rem 0;
     font-size: 2rem;
     color:white;
     text-align: center;
@@ -84,7 +86,7 @@
     </style>
 </head>
 
-<section class="footer">
+<footer class="footer">
 
     <div class="box-container">
 
@@ -128,4 +130,4 @@
 
     <div class="credit">&copy; Copyright @ 2023 | <span>Group 05</span> | all rights reserved! </div>
 
-</section>
+</footer>

@@ -53,9 +53,9 @@ body{
 }
 
 section{
-   padding:2rem;
-   max-width: 1200px;
-   margin:0 auto;
+   padding:2rem 4rem;
+   max-width: 100%;
+   margin:0;
 }
 
 .heading{
@@ -76,7 +76,7 @@ section{
    padding:1rem 3rem;
    font-size: 1.7rem;
    text-transform: capitalize;
-   color:var(--white);
+   color:var(--black);
    cursor: pointer;
    text-align: center;
 }
@@ -88,7 +88,13 @@ section{
 }
 
 .btn{
-   background-color: var(--main-color);
+   font-weight: 600;
+   background-color: #f9d6b6;
+}
+
+.btn:hover {
+   background-color: #D0B8A8;
+   
 }
 
 .option-btn{
@@ -175,12 +181,17 @@ section{
 
 .header .flex .logo{
    font-size: 3.5rem;
-   color:#e5e2e2;
+   /*color:#e5e2e2;*/
+   color: white;
    font-weight: bolder;
 }
 
 .header .flex .logo i{
-   color:#f3d2b0;
+   /*color:#f3d2b0;*/
+   color:#5f133a;
+   background-color: white;
+   border: 1rem solid white;
+   border-radius: 50%;
 }
 
 .header .flex .navbar a{
@@ -200,7 +211,7 @@ section{
    margin-left: 1rem;
    font-size: 2.5rem;
    cursor: pointer;
-   color:#ebcdb5;
+   color:white;
 }
 
 .header .flex .icons > *:hover{
@@ -269,6 +280,7 @@ section{
 
 .home-bg .home .slide .content{
    flex:1 1 40rem;
+   padding:1rem 2rem;
 }
 
 .home-bg .home .slide .content span{
@@ -286,11 +298,49 @@ section{
 .home-bg .home .slide .content .btn{
    display: inline-block;
    width: auto;
+   background-color: #F8EDE3;
+   color:black;
 }
 
 .swiper-pagination-bullet-active{
-   background-color: var(--main-color);
+   background-color: #f9d6b6;
 }
+
+/****************delivery part css****************************/
+
+.icons-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+   gap:1.5rem;
+   /*margin-left:8rem;*/
+   
+}
+
+.icons-container .icons{
+   display: flex;
+   align-items: center;
+   gap:1.5rem;
+   padding:2rem 0;
+   margin: 0 4rem;
+}
+
+.icons-container .icons i{
+   font-size: 3.5rem;
+   color:#85586F;
+}
+
+.icons-container .icons h3{
+   font-size: 2.2rem;
+   color:var(--black);
+   padding-bottom: .5rem;
+}
+
+.icons-container .icons p{
+   font-size: 1.4rem;
+   color:var(--light-color);
+}
+
+
 .category .slide{
    margin-bottom: 5rem;
    box-shadow: var(--box-shadow);
@@ -411,6 +461,23 @@ section{
 .home-products .slide:hover .fa-eye{
    left: 1rem;
 }
+
+
+/****************************add*****************************************/
+.ads .add {
+   display: flex;
+   flex-direction: row;
+   
+}
+
+.ads .add .image2 img{
+   height: 40rem;
+   width: 40rem;
+   object-fit: contain;
+   margin-left: 20rem;
+}
+
+
 
 .quick-view form{
    padding:2rem;
@@ -715,20 +782,22 @@ section{
    border-radius: .5rem;
    border:var(--border);
    max-width: 50rem;
-   margin:0 auto;
+   margin:4rem auto;
+   background:#85586F;
+   color:black;
 }
 
 .contact form h3{
    margin-bottom: 1rem;
    text-transform: capitalize;
    font-size: 2.5rem;
-   color:var(--black);
+   color:var(--white);
 }
 
 .contact form .box{
    margin:1rem 0;
    width: 100%;
-   background-color: var(--light-bg);
+   background-color: #f0ddcb;
    padding:1.4rem;
    font-size: 1.8rem;
    color:var(--black);
@@ -1045,6 +1114,26 @@ section{
    .home-bg .home .slide .content h3{
       font-size: 3rem;
    }
+
+   .ads .add {
+      flex-direction: column;
+      
+   }
+
+   
+  .ads .add .image2 img{
+    margin: 4rem 25%;
+     justify-content: center;
+     height: 40rem;
+     width: 50%;
+      
+   }
+
+  .ads .add .content {
+      text-align: center;
+      margin: auto;
+  }
+
 
 }
 

@@ -153,7 +153,7 @@ if(isset($_SESSION['user_id'])){
 
 
 
-<?php include 'components/footer.php'; ?>
+<?php include 'components/footer1.php'; ?>
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
