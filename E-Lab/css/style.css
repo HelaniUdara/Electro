@@ -40,7 +40,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-   background-color: var(--main-color);
+   background-color: #3e3b3b7a;
 }
 
 html{
@@ -347,8 +347,9 @@ section{
    border:var(--border);
    text-align: center;
    padding:2rem;
-   background: var(--white);
+   background-color: #ebd9c8;
    border-radius: 10%;
+
 }
 
 .category .slide:hover{
