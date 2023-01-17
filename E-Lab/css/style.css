@@ -999,7 +999,7 @@ section{
    border:var(--border);
    background-color: var(--white);
    box-shadow: var(--box-shadow);
-   border-radius: 7%;
+   border-radius: 2rem;
 }
 
 .orders .box-container .box p{

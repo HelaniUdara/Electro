@@ -30,7 +30,8 @@ if(isset($_POST['checkout'])){
 	<div class="container">
 		<div class="right" >
 			<h3>PAYMENT</h3>
-			<form>
+			<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>
+">
 				<p style="color:white">Accepted Card</p> <br>
 				<img src="images/card1.png" width="100">
 				<img src="images/card2.png" width="50">
@@ -60,8 +61,9 @@ if(isset($_POST['checkout'])){
 						<input type="number" name="cvv" placeholder="CVV" required>
 					</label>
 				</div>
+				<input type="submit" name="checkout" value="Proceed to Checkout">
 			</form>
-			<input type="submit" name="checkout" value="Proceed to Checkout">
+		
 		</div>
 	</div>
 </body>

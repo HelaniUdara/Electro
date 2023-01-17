@@ -44,18 +44,7 @@ include 'components/wishlist_cart.php';
    
    <div class="swiper-wrapper">
 
-      <div class="swiper-slide slide">
-         <div class="image">
-            <img src="images/home-img-4.png" alt="">
-         </div>
-         <div class="content">
-            <span style="font-size:25px;">DISCOUNTS UP TO 50% OFF</span>
-            <h3 style="font-size:25px;">Latest Smartphones</h3>
-            <a href="shop.php" class="btn">Shop Now</a>
-         </div>
-      </div>
-
-      <div class="swiper-slide slide">
+   <div class="swiper-slide slide">
          <div class="image">
             <img src="images/home-img-2.png" alt="">
          </div>
@@ -68,11 +57,24 @@ include 'components/wishlist_cart.php';
 
       <div class="swiper-slide slide">
          <div class="image">
-            <img src="images/home-img-3.png" alt="">
+            <img src="images/home-img-4.png" alt="">
+         </div>
+         <div class="content">
+            <span style="font-size:25px;">DISCOUNTS UP TO 50% OFF</span>
+            <h3 style="font-size:25px;">Latest Smartphones</h3>
+            <a href="shop.php" class="btn">Shop Now</a>
+         </div>
+      </div>
+
+     
+
+      <div class="swiper-slide slide">
+         <div class="image">
+            <img src="images/pngfind.com-macbook-pro-png-384091.png" alt="">
          </div>
          <div class="content">
             <span style="font-size:25px;">DISCOUNTS UP TO 60% OFF</span>
-            <h3 style="font-size:25px;">Latest Headsets</h3>
+            <h3 style="font-size:25px;">Latest Laptops</h3>
             <a href="shop.php" class="btn">Shop Now</a>
          </div>
       </div>
