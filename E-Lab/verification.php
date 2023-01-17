@@ -27,7 +27,7 @@
     <style>
 
         body{
-            /background-color: #F8EDE3;/
+            /*background-color: #F8EDE3;*/
             background-image:url("images/signback.jpeg");
             background-repeat: no-repeat;
             background-size: cover;
