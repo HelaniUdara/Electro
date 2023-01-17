@@ -26,10 +26,11 @@ h1 {
   left: 10px;
   font-size:35px;
 }
+/*
 a:hover{
    color:aqua;
 }
-
+*/
    </style>
 </head>
 

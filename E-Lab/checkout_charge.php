@@ -18,20 +18,12 @@ if(isset($_POST['checkout'])){
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Card Payment</title>
 	<link rel="stylesheet" type="text/css" href="css/payment.css">
-    <style>
-         body{
-         background-image:url("images/user-register-back-image.jpg");
-         background-repeat: no-repeat;
-         background-size: cover;
-      }
-    </style>
 </head>
 <body>
 	<div class="container">
 		<div class="right" >
 			<h3>PAYMENT</h3>
-			<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>
-">
+			<form>
 				<p style="color:white">Accepted Card</p> <br>
 				<img src="images/card1.png" width="100">
 				<img src="images/card2.png" width="50">
@@ -61,9 +53,8 @@ if(isset($_POST['checkout'])){
 						<input type="number" name="cvv" placeholder="CVV" required>
 					</label>
 				</div>
-				<input type="submit" name="checkout" value="Proceed to Checkout">
 			</form>
-		
+			<input type="submit" name="checkout" value="Proceed to Checkout" style="margin-bottom: 1rem;">
 		</div>
 	</div>
 </body>

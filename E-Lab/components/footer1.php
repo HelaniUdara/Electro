@@ -86,7 +86,7 @@
 
  .footer-info {
    margin-bottom: 15px;
-   background: #191919;
+   background: #5f133a;
    color: #fff;
    border-top: 4px solid beige;
    text-align: center;

@@ -7,7 +7,7 @@ session_start();
 $admin_id = $_SESSION['admin_id'];
 
 if(!isset($admin_id)){
-   header('location:index.php');
+   header('location:admin_login.php');
 }
 
 ?>
@@ -73,7 +73,7 @@ if(!isset($admin_id)){
          <a href="placed_orders.php" class="btn">see orders</a>
       </div>
 
-      <div class="box">
+      <!--<div class="box">
          <?php
             $select_orders = $conn->prepare("SELECT * FROM `orders`");
             $select_orders->execute();
@@ -115,7 +115,7 @@ if(!isset($admin_id)){
          <h3><?= $number_of_admins; ?></h3>
          <p>admin users</p>
          <a href="admin_accounts.php" class="btn">see admins</a>
-      </div>
+      </div>-->
 
       <div class="box">
          <?php

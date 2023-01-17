@@ -35,7 +35,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-   background-color: var(--main-color);
+   background-color: #81777791;
 }
 
 html{
@@ -60,6 +60,8 @@ section{
    margin-bottom: 2rem;
    text-align: center;
    text-transform: uppercase;
+   padding-top: 40px;
+   
 }
 
 .btn,
@@ -88,11 +90,11 @@ section{
 }
 
 .option-btn{
-   background-color: var(--orange);
+   background-color: #5f133a;
 }
 
 .delete-btn{
-   background-color: var(--red);
+   background-color: rgb(141, 85, 63);
 }
 
 .flex-btn{
@@ -195,7 +197,7 @@ section{
 .header{
    position: sticky;
    top:0; left:0; right:0;
-   background-color: var(--white);
+   background-color: #85586F;
    box-shadow: var(--box-shadow);
    z-index: 1000;
 }
@@ -209,26 +211,25 @@ section{
 
 .header .flex .logo{
    font-size: 2.5rem;
-   color:var(--black);
+   color:black;
 }
 
 .header .flex .logo span{
-   color:var(--main-color);
+   color:beige;
 }
 
 .header .flex .navbar a{
    margin:0 0.5rem;
    font-size: 2rem;
-   color:var(--black);
-   border: 2px solid #e7e7e7;
+   color:white;
    border-radius:5px;
    padding:15px;
-    min-height:30px; 
-    min-width: 120px;
+   min-height:30px; 
+   min-width: 120px;
 }
 
 .header .flex .navbar a:hover{
-   background-color: #e7e7e7;
+   background-color:var(--black);
    text-decoration: none;
 }
 
@@ -240,7 +241,7 @@ section{
 }
 
 .header .flex .icons div:hover{
-   color:var(--main-color);
+   color:white;
 }
 
 .header .flex .profile{
@@ -278,15 +279,15 @@ section{
    gap:1.5rem;
    justify-content: center;
    align-items: flex-start;
+   padding-top: 100px;
 }
 
 .dashboard .box-container .box{
    padding:2rem;
    text-align: center;
-   border:var(--border);
    box-shadow: var(--box-shadow);
-   border-radius: .5rem;
-   background-color: var(--white);
+   border-radius: 2.5rem;
+   background-color: #dfd3c3;
 }
 
 .dashboard .box-container .box h3{
@@ -310,9 +311,8 @@ section{
 .add-products form{
    max-width: 70rem;
    margin: 0 auto;   
-   background-color: var(--white);
+   background-color: #dfd3c3;
    box-shadow: var(--box-shadow);
-   border:var(--border);
    border-radius: .5rem;
    padding:2rem;
 }
@@ -327,9 +327,12 @@ section{
    flex:1 1 25rem;
 } 
 
+
+
+
 .add-products form span{
    font-size:1.7rem;
-   color:var(--light-color);
+   color:rgba(0, 0, 0, 0.621);
 }
 
 .add-products form .box{
@@ -459,15 +462,14 @@ section{
    padding:2rem;
    padding-top: 1rem;
    border-radius: .5rem;
-   border:var(--border);
-   background-color: var(--white);
+   background-color: #dfd3c3;
    box-shadow: var(--box-shadow);
 }
 
 .orders .box-container .box p{
    line-height: 1.5;
    font-size: 2rem;
-   color:var(--light-color);
+   color:rgba(0, 0, 0, 0.753);
    margin:1rem 0;
 }
 
@@ -483,7 +485,7 @@ section{
    font-size: 1.8rem;
    color:var(--black);
    border-radius: .5rem;
-   border:var(--border);
+  
 }
 
 .accounts .box-container{
