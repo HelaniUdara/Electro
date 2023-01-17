@@ -139,7 +139,7 @@ if(isset($_GET['delete'])){
       <label for="category"><span >Choose a Product Category&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></label>
       <select name="product-category" id="category">
       <option value="smartphone">SmartPhone</option>
-      <option value="lap">Laptop</option>
+      <option value="laptop">Laptop</option>
       <option value="watch">Watch</option>
       <option value="tv">TV</option>
       <option value="camera">Camera</option>

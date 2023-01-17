@@ -76,7 +76,7 @@ section{
    padding:1rem 3rem;
    font-size: 1.7rem;
    text-transform: capitalize;
-   color:var(--black);
+   color: white;
    cursor: pointer;
    text-align: center;
 }
@@ -89,7 +89,7 @@ section{
 
 .btn{
    font-weight: 600;
-   background-color: #f9d6b6;
+   background-color: #85586F;
 }
 
 .btn:hover {
@@ -98,11 +98,11 @@ section{
 }
 
 .option-btn{
-   background-color: var(--orange);
+   background-color: #85586F;
 }
 
 .delete-btn{
-   background-color: var(--red);
+   background-color: rgb(140, 27, 27);
 }
 
 .flex-btn{

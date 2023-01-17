@@ -83,6 +83,30 @@
     font-weight: bold;
 }
 
+
+ .footer-info {
+   margin-bottom: 15px;
+   background: #191919;
+   color: #fff;
+   border-top: 4px solid beige;
+   text-align: center;
+   padding: 30px 20px;
+ }
+ 
+ .footer .box-container .footer-info h3 {
+   font-size: 36px;
+   margin: 0 0 20px 0;
+   padding: 2px 0 2px 0;
+   line-height: 1;
+   font-weight: 700;
+ }
+ 
+ .footer .box-container .footer-info p {
+   font-size: 14px;
+   line-height: 24px;
+   margin-bottom: 0;
+   font-family: "Raleway", sans-serif;
+ }
     </style>
 </head>
 
@@ -114,11 +138,22 @@
          <a href="https://www.google.com/myplace"><i class="fas fa-map-marker-alt"></i> Colombo 10, Srilanka </a>
       </div>
         
-      <div class="box">
+     <!-- <div class="box">
          <h3>Electro</h3>
          <p>Electro being a fully Sri Lankan owned company, aims to make a positive impact on Sri Lanka by providing the best electronic items. </p>
       </div>
-    </div>
+    
+-->
+
+        <div class="box">
+         <div class="footer-info">
+            <h3>Electro</h3>
+            <p>Electro being a<br>fully Sri Lankan owned company, aims to make a positive impact on Sri Lanka by providing the best electronic items. </p><br>
+            
+         </div>
+         </div>
+         </div>
+      
 
     <div class="share">
         <a href="#" class="fab fa-facebook-f"></a>

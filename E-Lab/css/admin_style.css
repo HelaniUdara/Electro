@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
 
 :root{
-   --main-color:#2980b9;
+   --main-color:#85586F;
    --orange:#f39c12;
    --red:#e74c3c;
    --black:#444;
@@ -217,14 +217,19 @@ section{
 }
 
 .header .flex .navbar a{
-   margin:0 1rem;
+   margin:0 0.5rem;
    font-size: 2rem;
    color:var(--black);
+   border: 2px solid #e7e7e7;
+   border-radius:5px;
+   padding:15px;
+    min-height:30px; 
+    min-width: 120px;
 }
 
 .header .flex .navbar a:hover{
-   color:var(--main-color);
-   text-decoration: underline;
+   background-color: #e7e7e7;
+   text-decoration: none;
 }
 
 .header .flex .icons div{
