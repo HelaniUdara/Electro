@@ -123,7 +123,7 @@ include 'components/wishlist_cart.php';
 
 <section class="category">
 
-   <h1 class="heading" style="font-size:25px;">Shop by Category</h1>
+   <h1 class="heading" style="font-size:25px;">Featured Categories</h1>
 
    <div class="swiper category-slider">
 
@@ -155,6 +155,10 @@ include 'components/wishlist_cart.php';
    </a>
 
    </div>
+
+   <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-f63fa25110eed9c2b"></div>
+
+   <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-f63fa25110eed9c2b"></div>
 
    <div class="swiper-pagination"></div>
 
@@ -287,6 +291,18 @@ var swiper = new Swiper(".products-slider", {
       },
    },
 });
+
+var swiper = new Swiper(".category-slider", {
+         spaceBetween: 20,
+         slidesPerView: 5,
+        slidesPerGroup: 5,
+        loop: true,
+        loopFillGroupWithBlank: true,
+         navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
 
 </script>
 

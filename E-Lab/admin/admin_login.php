@@ -35,7 +35,7 @@ if(isset($_POST['submit'])){
       body{
     margin: 0;
     padding: 0;
-    background: url("../images/user-register-back-image.png");
+    background: url("../images/signback.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -78,6 +78,7 @@ h1{
 .login-box input{
     width: 100%;
     margin-bottom: 20px;
+    color: #fff;
 }
 .login-box input[type="text"], input[type="password"]
 {
@@ -133,6 +134,13 @@ h1{
         font-size: 12px;
     }
 }
+
+@media only screen and (max-width: 320px) {
+  body {
+    background-size: contain;
+  }
+}
+
 
 
 
