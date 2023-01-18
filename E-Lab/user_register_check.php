@@ -118,19 +118,19 @@ if (isset($_POST['submit'])) {
 
             //Set gmail username
 
-            $mail->Username = "oxygen.sports.web@gmail.com";
+            $mail->Username = "webgroup2023@gmail.com";
 
             //Set gmail password
 
-            $mail->Password = "tdrvdsaflkuzgcuw";
+            $mail->Password = "yvorpzhcgmprwxnh";
 
             //Email subject
 
-            $mail->Subject = "Oxygen Sports : User verification";
+            $mail->Subject = "Electro : User validation";
 
             //Set sender email
 
-            $mail->setFrom('oxygen.sports.web@gmail.com', "Oxygen Sports User Verification");
+            $mail->setFrom('webgroup2023@gmail.com', "Electro User Verification");
 
             //Enable HTML
 
@@ -140,15 +140,13 @@ if (isset($_POST['submit'])) {
 
             <p>Dear user, </p>
 
-            <p> Thank you for signing up for Oxygen Sports! To complete your registration, please enter the following OTP code in the verification form on our website:</p>
+            <p> Thank you for signing up for Electro!, please enter the following OTP code in the verification form on our website:</p>
 
             <h3>Your verify OTP code is $otp <br></h3>
 
             <br><br>
 
-            <p>Sincerly,</p>
-
-            <b>The Oxygen Sports Team</b>
+            <b>by Electric</b>
 
             ";
 
